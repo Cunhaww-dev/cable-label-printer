@@ -3,7 +3,7 @@ node_modules/
 jspm_packages/
 
 # Build (Saída do TypeScript)
-dist/
+# Hostinger compartilhada não executa build no deploy; versionamos dist/server.js.
 build/
 out/
 *.tsbuildinfo
