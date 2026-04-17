@@ -2,9 +2,11 @@
   "name": "cable-label-printer",
   "version": "1.0.0",
   "description": "API para impressão e gerenciamento de etiquetas de cabos",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "Lucas Fabri",
@@ -15,7 +17,7 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
-    "@types/node": "^25.6.0",
+    "@types/node": "^24.0.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3"
   }
